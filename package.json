@@ -7,8 +7,9 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "","homepage": "https://chantillyllc.github.io/giw",
+  "author": "",
   "license": "ISC",
+  "homepage": "https://chantillyllc.github.io/giw",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
