@@ -7,374 +7,265 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/4c9f666489.js" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="main.css">
 
     <title>GIW Consulting</title>
 </head>
 <body>
 
-    <div class="p-0 top-bar text-light">
-        <div class="container-fluid">
+    <div class="top-bar">
+        <div class="container">
             <div class="row gx-0 d-none d-lg-flex">
-                <div class="col-lg-6 px-5 text-start">
-                    <p class="d-inline-flex align-items-center me-3  align-items-center fs-sm mb-0">
-                        <i class="bi bi-geo-alt fs-xl text-light icon-top me-2 icon-top"></i>
+                <div class="col-lg-7 text-start">
+                    <div class="d-inline-flex align-items-center me-3 fs-sm">
+                        <i class="fa fa-map-marker me-2 gold-color" aria-hidden="true"></i>
                         <span class="">Iconic World Trade Centre</span>
-                    </p>
-                    <p class="d-inline-flex align-items-center me-2  align-items-center fs-sm mb-0">
-                        <i class="bi bi-clock fs-xl text-light me-2"></i>
+                    </div>
+                    <div class="d-inline-flex align-items-center fs-sm">
+                        <i class="fa fa-clock me-2 gold-color" aria-hidden="true"></i>
                         <span class="">MON - FRI : 08:30 AM - 06:30 PM</span>
-                    </p>
+                    </div>
                 </div>
-                <div class="col-lg-6 px-5 text-end">
-                    <p class="d-inline-flex align-items-center align-items-center fs-sm mb-0 me-4">
-                        <i class="bi bi-telephone fs-xl text-light me-2 icon-top"></i>
-                        <a href="tel:+97143464000" class="text-light text-decoration-none fs-sm">+971 4 346 4000</a>
-                    </p>
-                    <p class="d-inline-flex align-items-center align-items-center fs-sm mb-0">
-                        <i class="bi bi-newspaper fs-xl text-light me-2 icon-top"></i>
-                        <a href="tel:+97143464100" class="text-light text-decoration-none fs-sm">+971 4 346 4100</a>
-                    </p>
+                <div class="col-lg-5 text-end">
+                    <div class="d-inline-flex align-items-center me-3 fs-sm">
+                        <i class="fa fa-phone me-2 gold-color" aria-hidden="true"></i>
+                        <a href="tel:+97143464000" class="text-decoration-none text-white">+971 4 346 4000</a>
+                    </div>
+                    <div class="d-inline-flex align-items-center fs-sm">
+                        <i class="fa fa-fax me-2 gold-color" aria-hidden="true"></i>
+                        <a href="tel:+97143464100" class="text-decoration-none text-white">+971 4 346 4100</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <nav class="navbar sticky-top bg-white">
+    <nav class="navbar sticky-top bg-white shadow-sm">
         <div class="container">
-            <a class="navbar-brand m-0 colo-orange h1" href="#"><img src="./img/logo.png" width="35" class="me-2" alt="Silicon">GIW Consulting</a>
+            <a class="navbar-brand m-0 d-flex align-items-center p-0" href="#">
+                <img src="./img/logo.png" width="35" class="me-2" alt="Silicon">
+                <span>GIW Consulting</span>
+        </a>
         </div>
     </nav>
 
-    <!-- Showcase -->
-    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <div class="overlay-img" style="background-image: url(./img/slide2.webp) ;"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="h1 text-light">Governance Services</h2>
-                    <p>Amongst other activities, GIW is able to assist with the incorporation and formation of entities in the Seychelles, Mauritus, Samoa, Hong Kong, BVI, Cayman Islands, Cyprus, Singapore, Turks and Caicos and the United Arab Emirates.</p>
-                </div>
-                <div class="container">
-                    
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <div class="overlay-img" style="background-image: url(./img/slide3.webp) ;"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="h1 text-light">Regulatory & Compliance</h2>
-                    <p>Our team of professionals keep abreast of the laws and regulations to guarantee continuing legal compliance in each jurisdiction. We ensure that the legal entities maintain a proper framework of governance extending all the way to meeting uniquely specified administrative needs of the most active business enterprises.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="overlay-img" style="background-image: url(./img/slide6.webp) ;"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="h1 text-light">Bank Account Services</h2>
-                    <p>GIW has relationships with banks in the United Arab Emirates, Switzerland, Singapore, Hong Kong, Seychelles, Mauritius and Bahrain.</p>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-lg-8 col-md-10">
+                    <h1 class="main-header">
+                        who we are
+                    </h1>
+                    <p>
+                        GIW Consulting is a Professional Management and Consulting company formed in Dubai, United Arab Emirates and has been in the business since 2006. It has a Professional Management Consulting license from the Dubai Economic Department and the company’s senior management has over 50 years of business management experience globally.
+                    </p>
+                    <p>GIW has offices at the prestigious Dubai World Trade Centre. It has trusted Corporate and banking Experts and have strategic business partners in cross jurisdictional locations. </p>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </section>
 
-    <!-- Boxes -->
-    <section class="py-5 px-2 px-md-5">
+    <!-- Service -->
+    <section class="p-2 p-lg-5">
         <div class="container">
-            <h2 class="h1 pt-xl-2 pb-4 mb-2 mb-lg-3">Our Expertise</h2>
-            <div class="row g-4">
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card border-0">
-                        <img src="./img/01.jpg" class="card-img-top rounded" alt="img-1">
-                        <div class="card-body px-0 pt-4">
-                            <h4 class="card-title mb-3">Governance Services</h4>
+            <h2 class="section-title">Our Expertise</h2>
+            <div class="row align-items-center justify-content-between">
+                
+                <div class="col-md-6 mb-5">
+                    <img src="img/img-1.jpg" class="img-fluid rounded" alt="image one" />
+                </div>
+
+                <div class="col-md-6 px-1 px-lg-4  mb-5">
+                    <h4 class="medium-header">company formation and corporate secretarial services</h4>
+                    <p class="text-sm">
+                        Our company offers full spectrum of company formation services 
+                        in incorporating companies in over 7 countries.
+                    </p>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-8">
                             <ul class="list-unstyled">
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Incorporation and formation
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Freezone and Mainland establishment
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Registered office services
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Company and trust formation
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
                                     Company secretarial and corporate administration
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Corporate governance 
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Corporate governance
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
                                     Liquidation support
                                 </li>
-                                <!-- <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Regulatory and compliance
-                                </li> -->
                             </ul>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/writing.svg" class="img-fluid w-50 d-block mx-auto" alt="image document" />
                         </div>
                     </div>
                 </div>
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card border-0">
-                        <img src="./img/02.jpg" class="card-img-top rounded" alt="img-1">
-                        <div class="card-body px-0 pt-4">
-                            <h4 class="card-title mb-3">Regulatory & Compliance</h4>
+
+                <div class="col-md-6 mb-5 d-inline-flex d-lg-none">
+                    <img src="img/img-2.jpg" class="img-fluid rounded" alt="image one" />
+                </div>
+
+                <div class="col-md-6 px-1 px-lg-4  mb-5">
+                    <h4 class="medium-header">Regulatory and compliance services</h4>
+                    <p class="text-sm">
+                        Our team of professionals keep abreast of the laws and regulations 
+                        to guarantee continuing legal compliance in each jurisdiction. We ensure that the legal entities 
+                        maintain a proper framework of governance extending all the way to meeting uniquely specified 
+                        administrative needs of the most active business enterprises.
+                    </p>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-8">
                             <ul class="list-unstyled">
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
                                     Statutory reporting
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Regulatory reporting
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Year-round regulatory compliance
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Tax compliance support
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Compliance support
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
                                     Substance reviews
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    AML & data privacy compliance support
-                                </li>
                             </ul>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/approval.svg" class="img-fluid w-50 d-block mx-auto" alt="image document" />
                         </div>
                     </div>
                 </div>
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card border-0">
-                        <img src="./img/03.jpg" class="card-img-top rounded" alt="img-1">
-                        <div class="card-body px-0 pt-4">
-                            <h4 class="card-title mb-3">Bank Account Services</h4>
+
+                <div class="col-md-6 mb-5 d-none d-lg-inline-flex">
+                    <img src="img/img-2.jpg" class="img-fluid rounded" alt="image one" />
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <img src="img/img-3.jpg" class="img-fluid rounded" alt="image one" />
+                </div>
+
+                <div class="col-md-6 px-1 px-lg-4  mb-5">
+                    <h4 class="medium-header">Management consultancy</h4>
+                    <p class="text-sm">
+                        Drawing on decades of experience and a wide-range source of knowledge base, 
+                        we provide our clients on the type and jurisdiction that best suits their business 
+                        after comprehensively considering the business profile, logistics, facilities, 
+                        financial, tax and suitability factors that drives their business.
+                    </p>
+                    <p class="text-sm">
+                        We also introduce, coordinate and engage in contract negotiations 
+                        and preparation of due diligence requirements.
+                    </p>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-8">
                             <ul class="list-unstyled">
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Bank account introduction & assistance
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Market research and Feasibility analysis 
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Cheque payments
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Jurisdiction Advisory
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Guarantee by banks.
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Deal Advisory Services
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Consultancy
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Client and Profit growth strategy
                                 </li>
-                                <li class="d-flex align-items-center fs-sm mb-2">
-                                    <i class="bi bi-check fs-xl theme-color me-2"></i>
-                                    Credit cards
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-circle-check fs-xl gold-color me-2"></i>
+                                    Business introductions
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-md">
+                            <img src="img/management.svg" class="img-fluid w-50 d-block mx-auto" alt="image document" />
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Why us -->
-    <section class="py-5 px-2 px-md-5 section-why">
-        <div class="container py-5">
-            <h3 class="h1 text-center pt-1 pt-xl-3 mb-lg-4">Why Us?</h3>
-            <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">
-                We personalize how we work to fit your project needs. Our approach helps augment innovation.
-            </p>
-
-            <div class="row">
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-person"></i>
-                              </div>
-                            <h5 class="card-title mb-3">Professional Team</h5>
-                            <p class="card-text fs-sm">
-                                Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-hand-thumbs-up"></i>
-                              </div>
-                            <h5 class="card-title mb-3">Success Guarantee</h5>
-                            <p class="card-text fs-sm">
-                                Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-clock"></i>
-                              </div>
-                            <h5 class="card-title mb-3">On Time Service</h5>
-                            <p class="card-text fs-sm">
-                                Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md mb-3 mb-md-0">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-command"></i>
-                              </div>
-                            <h5 class="card-title mb-3">Innovative Solutions</h5>
-                            <p class="card-text fs-sm">
-                                Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Office Details -->
+    <section class="reach-us">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+                <img src="./img/DTC.jpg" alt="office" class="img-fluid">
             </div>
-        </div>
-    </section>
-
-    <!-- UEA Service -->
-    <section class="use-service">
-        <div class="row">
-            <div class="col-md mb-3 mb-md-0">
-                <img src="./img/dubai-hero.webp" alt="dubai-hero" class="img-fluid">
-            </div>
-            <div class="col-md mb-3 mb-md-0">
-                <div class="container h-100 d-flex flex-column justify-content-center">
-                    <h2 class="h3 pt-xl-2 pb-3 mb-2 mb-lg-2">UAE SERVICES INCLUDE</h2>
-                    <ul class="list-unstyled">
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Dubai offshore company formation and administration
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Freezone company establishment
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Licensed registered agent for RAK ICC companies
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Dubai brand registration
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Dubai LLC
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Family relocation services
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Assistance in sourcing rental properties
-                        </li>
-                        <li class="d-flex align-items-center fs-md mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            Collaboration with professional intermediaries
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-dark text-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-3 mb-md-3 mb-lg-0">
-                    <p class="h4 pt-xl-2 pb-3 mb-2 mb-lg-2 text-light">GWI Consulting</p>
-                    <p class="text-lead fs-sm">
-                        GIW Consulting is a Professional Management and Consulting company formed in Dubai, United Arab Emirates and has been in the business since 2006. 
-                        It has a Professional Management Consulting license from the Dubai Economic Department.
+            <div class="col-md-6">
+                <div class="container">
+                    <h2 class="section-title contact-title">contact us</h2>
+                    <p>
+                        <i class="fa fa-clock me-2 gold-color"></i>
+                        <small class="me-2 fw-bold">Timing :</small>
+                        &ensp;Monday-Friday<br>
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;8:30am to 6:30pm<br> 
+                    </p>
+                    <p>
+                        <i class="fa fa-map-marker-alt gold-color me-2"></i>
+                        <small class="me-2 fw-bold">Address :</small>
+                        GIW Consulting<br>
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;13th Floor Sheikh Rashid Tower<br> 
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Dubai World Trade Centre<br> 
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Sheikh Zayed Road<br>
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;PO Box 40086<br>
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Dubai United Arab Emirates
+                    </p>
+                    <p>
+                        <i class="fa fa-phone me-2 gold-color"></i>
+                        <small class="me-2 fw-bold">Phone :</small>
+                        <a href="tel:+97143464000" class="text-decoration-none text-dark">&ensp;+971 4 346 4000</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope me-2 gold-color"></i>
+                        <small class="me-2 fw-bold">Email :</small>
+                        <a class="text-decoration-none text-dark" href="mailto:info@giwconsulting.com">&ensp;&ensp;info@giwconsulting.com</a>
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-3 mb-md-3 mb-lg-0">
-                    <p class="h4 pt-xl-2 pb-3 mb-2 mb-lg-2 text-light">Contact Info</p>
-                    <ul class="list-unstyled lead">
-                        <li class="d-flex align-items-start fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold me-2">Address:</span> Suite 1305, 13th Floor <br> Dubai World Trade Centre <br> Sheikh Zayed Road <br> Dubai United Arab Emirates <br>
-                        </li>
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold me-2">Email:</span>&ensp;&ensp;&ensp;trade@giwllc.com
-                        </li>
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold">Phone:</span>&ensp;&ensp;&ensp;+971 4 346 4000
-                        </li>
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold me-2">Fax:</span>&ensp;&ensp;&ensp;&ensp;&ensp;+971 4 346 4100
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3 mb-md-3 mb-lg-0">
-                    <p class="h4 pt-xl-2 pb-3 mb-2 mb-lg-2 text-light">Services</p>
-                    <ul class="list-unstyled lead">
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold me-2">Freezone Companies</span>
-                        </li>
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold me-2">Offshore Company Set Up</span>
-                        </li>
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold">UAE Residence Visas</span>
-                        </li>
-                        <li class="d-flex align-items-center fs-sm mb-2">
-                            <i class="bi bi-check fs-xl theme-color me-2"></i>
-                            <span class="fw-bold me-2">Dubai Business Set Up</span>
-                        </li>
-                    </ul>
-
-                </div>
             </div>
         </div>
     </section>
-  
+
+
     <!-- Footer -->
     <footer class="text-white text-center position-relative">
-    <div class="container">
-        <small class="lead mb-0 fs-sm">Copyright &copy; 2022 GIW Consulting</small>
-        <a href="#" class="position-absolute bottom-0 end-0 p-5">
-        <i class="bi bi-arrow-up-circle h2 text-white"></i>
-        </a>
-    </div>
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+            <small class="lead mb-0 fs-sm">Copyright &copy; 2022 GIW Consulting</small>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h2 text-white"></i>
+            </a>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
