@@ -86,7 +86,7 @@ footer {
 .main-header {
   font-size: 4rem;
   line-height: 77px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .hero-section p {
   font-size: 1.125rem;
